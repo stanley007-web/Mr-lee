@@ -1,0 +1,48 @@
+/*.box{
+    background-color: blue;
+    color: white;
+}
+.my-navbar{
+    background-color: yellow !important;
+    position:sticky;
+    top: 0;
+    display: flex;
+    z-index: 9999;
+
+}*/
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 999999999;
+}
+section.hero{
+    height: 95vh !important;
+    position: relative;
+    z-index: 1;
+}
+section.hero .carousel-inner{
+    height: 95vh !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+section.hero .carousel-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(0,0,05);
+
+}
+section.hero.carousel{
+    height: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    z-index: 10;
+}
+section.hero ,.carousel-caption h5 {
+    font-size: 3.7rem;
+    text-wrap: nowrap;
+    font-weight: bolder;
+}
